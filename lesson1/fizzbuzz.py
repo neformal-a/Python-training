@@ -9,6 +9,9 @@ for i in range(101):
             print('Buzz')
         else: print(i)
 """
+# the first variant is also ok but it can be simplified with elif statement
+
+# looks good
 for i in range(1, 101):
     str = ''
 

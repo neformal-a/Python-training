@@ -4,8 +4,10 @@ new_numbers = []
 for val in numbers:
 
     try:
+        # the first if is redundant
         if type(val) is int:
             new_numbers.append(val)
+        # can be also replaced with the catching one more exception
         elif val is None:
             new_numbers.append(0)
         else:
